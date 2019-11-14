@@ -7,13 +7,23 @@
 }
 
 body  {
-  font-family:  'Lato', 'Raleway', 'sans-serif';
+  font-family:  'Lato',;
   background-color: #f2f2f2;
 }
-
+.f-raleway {
+  font-family: 'Raleway';
+}
 .inner  {
   width: 1100px;
   margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: #333;
+  transition: all 0.3s;
 }
 
 .header  {
@@ -27,10 +37,6 @@ body  {
   background-color: #74cfae;
   text-align: center;
   cursor: pointer;
-}
-.btn:hover  {
-  transition: all 0.3s;
-  color: #333;
 }
 .contact_btn  {
   padding: 14px 12px;
@@ -70,10 +76,10 @@ body  {
 .WHAT-WE-CAN-DO {
   background-color: #74cfae;
 }
-.iphone_title {
+.iphone_title_text_box {
   float: right;
-  padding-top: 50px;
-  width: 60%;
+  padding-top: 70px;
+  width: 65%;
 }
 .iphone_picture {
   float: left;
@@ -83,13 +89,16 @@ body  {
   font-size: 24px;
   color: #fff;
   text-align: center;
+  width: 105%;
 }
 .iphone_text  {
   color: #fff;
   font-size: 20px;
   padding-top: 35px;
-  width: 98%;
   text-align: center;
+  width: 105%;
+  word-break: break-all;
+  line-height: 1.2;
 }
 
 .article {
@@ -104,11 +113,11 @@ body  {
   width: 85%;
 }
 .work_text  {
-  width: 62%;
+  width: 72%;
   font-size: 20px;
   padding-right:  90px; 
   text-align: center;
-  margin-left: 80px;
+  margin-left: 73px;
 }
 .email_btn  {
   padding: 14px 20px;
@@ -187,6 +196,7 @@ figcaption  {
   padding: 0;
   width: 80%;
   text-align: center;
+  text-decoration: none;
 }
 .sns_list li {
   display: table-cell;
