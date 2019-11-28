@@ -38,11 +38,9 @@ a {
   text-align: center;
   transition: all 0.3s;
 }
-.pull_right {
-  text-align: right;
-}
 .contact_btn {
   padding: 14px 12px;
+  float: right;
 }
 .bolt {
   float: left;
@@ -64,13 +62,11 @@ a {
   font-weight: 700;
   text-align: center;
 }
-.headline {
-  margin-top:  20px; 
-}
 .headline_text  {
   font-size: 30px;
   color: #c0c0c0;
   text-align: center;
+  margin-top: 20px;
 }
 
 .what-we-can-do {
@@ -131,20 +127,18 @@ a {
 .btn:hover {
   color: #333;
 }
-.our-latest-work-list img {
+.our-latest-work-list a {
   opacity: 0.7;
   transition: all 0.3s;
 }
 .our-latest-work-list > li {
   float: left;
   list-style: none;
+  margin-top: 80px;
+  margin-left: 100px;
 }
 .our-latest-work-list {
   margin-top: 40px; 
-}
-.our-latest-work-list li {
-  margin-top: 80px;
-  margin-left: 100px;
 }
 .our-latest-work-list > li:nth-child(3n+1) {
   margin-left: 0; 
@@ -152,7 +146,7 @@ a {
 .our-latest-work-list > li:nth-child(-n+3) {
   margin-top: 0;
 }
-.our-latest-work-list > li:hover img {
+.our-latest-work-list > li:hover a {
   opacity: 1;
 }
 .oue-skills {
@@ -166,10 +160,10 @@ a {
 }
 .circle {
   text-align: center;
+  margin-top: 70px; 
 }
 .circle_mix {
   margin-left:  180px; 
-  margin-top: 70px;
   display: inline-block;
 }
 .circle_mix:first-child {
@@ -191,10 +185,10 @@ a {
   text-align: center;
   cursor: pointer;
   width: 185px;
-  padding: 25px 0;
+  padding: 20px 0;
   transition: all 0.3s;
 }
-li {
+.sns_item {
   display: inline-block;
 }
 .sns_list {
