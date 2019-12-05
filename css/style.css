@@ -236,8 +236,11 @@ a {
     margin-left: 0;
     font-size: 0;
   }
-  .our-latest-work-list > li:nth-child(4) {
+  .our-latest-work-list > li:nth-child(3n+1) {
     margin-top: 80px;
+  }
+  .our-latest-work-list > li:first-child {
+    margin-top: 0;
   }
   .our-latest-work-list > li:hover a {
     opacity: 0.7;
