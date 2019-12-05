@@ -345,6 +345,7 @@ a {
   }
   .our-latest-work-list {
     margin-top: 40px; 
+    font-size: 0;
   }
   .our-latest-work-list > li:nth-child(5) {
     margin-top: 0;
