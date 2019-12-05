@@ -267,7 +267,9 @@ a {
   }
   .our-latest-work-list {
     margin-top: 40px;
-    text-align: center 
+    text-align: center;
+    width: 100%;
+    display: block;
   }
   .our-latest-work-list > li {
     float: none;
@@ -284,6 +286,10 @@ a {
   }
   .our-latest-work-list > li:nth-child(6) {
     margin-top: 0;
+  }
+  .our-latest-work-list > li:hover a {
+    opacity: 0.7;
+    transition: all 0.3s;
   }
   .text_box {
     margin-top: 80px;
@@ -346,12 +352,17 @@ a {
   .our-latest-work-list {
     margin-top: 40px; 
     font-size: 0;
+    display: block;
   }
   .our-latest-work-list > li:nth-child(5) {
     margin-top: 0;
   }
   .our-latest-work-list > li:nth-child(6) {
     margin-top: 0;
+  }
+  .our-latest-work-list > li:hover a {
+    opacity: 0.7;
+    transition: all 0.3s;
   }
   .text_box {
     margin-top: 80px;
