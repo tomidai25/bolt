@@ -227,7 +227,6 @@ a {
   }
   .our-latest-work-list {
     margin-top: 40px;
-    text-align: center 
   }
   .our-latest-work-list > li {
     float: none;
@@ -261,15 +260,6 @@ a {
   .circle_mix {
     margin: 88px 0 0; 
     display: block;
-  }
-  .sns {
-    color: #74cfae;
-    background-color: #f2f2f2;
-    text-align: center;
-    cursor: pointer;
-    width: 185px;
-    padding: 20px 0;
-    transition: all 0.3s;
   }
 }
 
@@ -321,13 +311,7 @@ a {
     padding: 50px 0;
   }
   .sns {
-    color: #74cfae;
-    background-color: #f2f2f2;
-    text-align: center;
-    cursor: pointer;
     width: 100%;
-    padding: 20px 0;
-    transition: all 0.3s;
   }
   .sns_item {
     display: block;
